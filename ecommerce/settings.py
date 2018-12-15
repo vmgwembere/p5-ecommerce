@@ -22,12 +22,13 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY') or "bfkaflfga"
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'niels-ecommerce.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), 'veros-ecommerce.herokuapp.com']
 
 
 # Application definition
@@ -140,7 +141,7 @@ AWS_S3_OBJECT_PARAMETERS = {
     'CacheControl': 'max-age=94608000',
 }
 
-AWS_STORAGE_BUCKET_NAME = 'niels-ecommerce'
+AWS_STORAGE_BUCKET_NAME = 'veros-ecommerce'
 AWS_S3_REGION_NAME = 'eu-west-1'
 AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
 AWS_SECRET_ACCESS_KEY = os.environ.get("AWS_SECRET_ACCESS_KEY")
