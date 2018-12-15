@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/vmgwembere/p5-ecommerce.svg?branch=master)](https://travis-ci.org/vmgwembere/p5-ecommerce)
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
