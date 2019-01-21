@@ -55,7 +55,7 @@ Bootstrap
 
 ## Testing
 
-Used Travis automated testing which kept failing so resulted to manual testing by creating a user and going through all the functionality of the website. I also tested the website on different screen sizes. 
+manual testing by creating a user and going through all the functionality of the website. I also tested the website on different screen sizes. 
 
 ## Deployment
 
