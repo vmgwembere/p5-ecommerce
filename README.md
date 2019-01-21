@@ -1,23 +1,27 @@
-[![Build Status](https://travis-ci.org/vmgwembere/p5-ecommerce.svg?branch=master)](https://travis-ci.org/vmgwembere/p5-ecommerce)
-     
+
 # P5-ECOMMERCE
 
-A working ecommerce site using stripe and Amazon AWS 
- 
-## UX
- 
+A Django project composed of multiple apps. The project uses both Front End and Back End Development skills.
+
+A simple beauty based ecommerce site where customers can view and sort, filter products on the website, register, add products to the shopping cart, edit shopping cart, buy products and view orders on their account. 
+
 To begin with, I used the accounts app from the Django Authorization tutorial
 Then build a products app with a model to showcase items that are retailing.
 Then create a shopping cart which works in the current session and a checkout app.
 
+## UX
+ 
+The site has a minimalism look very few colours incoporated so that emphasis can go to the product. I want the user to be less distracted and focus on the task at hand which is shopping.
+ 
 ## Features
+search app - allows user to make a search on website
 
-search app
-cart app
-checkout app
+cart app - to add products to the cart or update them in the cart
+
+accounts app -  has customized user model. It accepts email as a username
  
 ### Existing Features
-The Products App
+The Products App- renders products which are in stock to be viewed on page
 
 The models
 Checkout uses one model, to show the product name, description, price and image.
@@ -32,21 +36,26 @@ Logout - allows users to logout by clicking a button
 
 ## Technologies Used
 
-Backend
 Python3
-Django
-Stripe
 
-Frontend
+Django
+
+Stripe - to process payments
+
+AWS- to host static files
+
 HTML5
+
 CSS3
+
 JavaScript
+
 Bootstrap
 
 
 ## Testing
 
-Used Travis automated testing
+Used Travis automated testing which kept failing so resulted to manual testing by creating a user and going through all the functionality of the website. I also tested the website on different screen sizes. 
 
 ## Deployment
 
